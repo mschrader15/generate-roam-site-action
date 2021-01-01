@@ -5,8 +5,16 @@ import watch from "node-watch";
 import fs from "fs";
 import jszip from "jszip";
 import marked from "marked";
+import hljs from "highlight.js";
 
 const CONFIG_PAGE_NAME = "roam/js/public-garden";
+
+marked.setOptions({
+  gfm: false,
+  smartLists: true,
+  smartypants: true,
+  highlight: (code, ) => hljs.highlightAuto(code, ).value
+})
 
 type Config = {
   index: string;
@@ -210,6 +218,12 @@ const prepareContent = ({
     ).replace(
       new RegExp('#\\[\\[|\\[\\[|\\]\\]', 'g'), 
       ''
+    ).replace(
+      new RegExp('__\\w', 'g'), 
+      (match) => `${match.substring(1)}`
+    ).replace(
+      new RegExp('\\w__', 'g'), 
+      (match) => `${match.substring(0,2)}`
     )
 };
 
