@@ -1,0 +1,128 @@
+{
+    "nodes": [
+        {
+            "id": "n0",
+            "label": "[[Article]]%2F__When_the_Magic_Happens",
+            "x": 0,
+            "y": 0,
+            "size": 1
+        },
+        {
+            "id": "n1",
+            "label": "Article_Reviews",
+            "x": 0,
+            "y": 0,
+            "size": 1
+        },
+        {
+            "id": "n2",
+            "label": "CV",
+            "x": 0,
+            "y": 0,
+            "size": 2
+        },
+        {
+            "id": "n3",
+            "label": "index",
+            "x": 0,
+            "y": 0,
+            "size": 1
+        },
+        {
+            "id": "n4",
+            "label": "My_Projects",
+            "x": 0,
+            "y": 0,
+            "size": 2
+        },
+        {
+            "id": "n5",
+            "label": "Roam",
+            "x": 0,
+            "y": 0,
+            "size": 3
+        },
+        {
+            "id": "n6",
+            "label": "Stoic_Clock",
+            "x": 0,
+            "y": 0,
+            "size": 3
+        },
+        {
+            "id": "n7",
+            "label": "Tuscaloosa",
+            "x": 0,
+            "y": 0,
+            "size": 2
+        },
+        {
+            "id": "n8",
+            "label": "Website_Helpers",
+            "x": 0,
+            "y": 0,
+            "size": 1
+        },
+        {
+            "id": "n9",
+            "label": "Websites_I_am_Inspired_By",
+            "x": 0,
+            "y": 0,
+            "size": 2
+        },
+        {
+            "id": "n10",
+            "label": "Who_am_I",
+            "x": 0,
+            "y": 0,
+            "size": 2
+        }
+    ],
+    "edges": [
+        {
+            "id": "e30",
+            "source": "n3",
+            "destination": "n10"
+        },
+        {
+            "id": "e31",
+            "source": "n3",
+            "destination": "n2"
+        },
+        {
+            "id": "e32",
+            "source": "n3",
+            "destination": "n5"
+        },
+        {
+            "id": "e33",
+            "source": "n3",
+            "destination": "n9"
+        },
+        {
+            "id": "e34",
+            "source": "n3",
+            "destination": "n5"
+        },
+        {
+            "id": "e35",
+            "source": "n3",
+            "destination": "n4"
+        },
+        {
+            "id": "e36",
+            "source": "n3",
+            "destination": "n6"
+        },
+        {
+            "id": "e40",
+            "source": "n4",
+            "destination": "n6"
+        },
+        {
+            "id": "e100",
+            "source": "n10",
+            "destination": "n7"
+        }
+    ]
+}
